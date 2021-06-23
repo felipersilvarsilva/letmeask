@@ -10,7 +10,7 @@ export function RoomCode(){
       <div>
         <img src={copyImg} alt="copy room code" />
       </div>
-      <span>Sala #1238</span>
+      <span>Sala -McqgtZpYBruEhi8lzlP</span>
     </button>
   )
 }
