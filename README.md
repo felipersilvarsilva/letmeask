@@ -11,11 +11,11 @@
 <h2>tecnologias</h2>
 
  - typescript
- - react-create-app
  - firebase
+ - react 
  - node
  - yarn
- 
+ - scss 
 
 
 
