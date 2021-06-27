@@ -23,7 +23,7 @@
 
 
  ## deploy
- ![[letmeask](./presentation/qrcode_letmeask-714ba.web.app.png)](https://letmeask-714ba.web.app/)
+ ![[letmeask](https://raw.githubusercontent.com/felipe-rodrigues-s/letmeask/master/presentation/qrcode_letmeask-714ba.web.app.png)](https://letmeask-714ba.web.app/)
  ## Midia Social
 
 [![Felipe no Instagram](https://github.com/felipe-rodrigues-s/imagens/blob/main/icon/ig-icon.png)](https://www.instagram.com/felipersilvarsilva/)
