@@ -2,7 +2,7 @@
 import copyImg from 'assets/images/copy.svg';
 
 //styles
-import 'styles/room-cod.scss';
+import 'styles/Room/room-cod.scss';
 
 import {RoomCodeProps} from 'types/Types'
 

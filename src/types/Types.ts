@@ -33,11 +33,13 @@ type FirebaseQuestions = Record<string,{
 	content:string;
 	isAnswered: boolean;
 	isHighlighted: boolean;
-
+  likes: Record<string, {
+    authorId: string;
+  }>
 }>
 
 
-type Question = {
+type TypeQuestion = {
 	id: string;
 	author:{
 		name: string,
@@ -46,6 +48,21 @@ type Question = {
 	content: string;
 	isAnswered: boolean;
 	isHighlighted: boolean;
+  likeCount: number;
+  likeId: string | undefined;
+}
+
+//component questions
+type QuestionProps= {
+  content: string;
+  author:{
+    name: string;
+    avatar: string;
+  };
+  children?: ReactNode;
+  isHighlighted?: boolean;
+  isAnswered?: boolean;
+  
 }
 
 export type {
@@ -55,5 +72,6 @@ export type {
   RoomCodeProps,
   RoomParams,
   FirebaseQuestions,
-  Question
+  TypeQuestion,
+	QuestionProps
 }
